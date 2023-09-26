@@ -1,0 +1,15 @@
+Blockchain na área da Saúde
+
+A Fundação Solve.Care, sediada na Estônia, criou uma plataforma baseada na tecnologia Blockchain com o objetivo de simplificar processos administrativos, facilitar o atendimento ao paciente, e otimizar o investimento público na área da Saúde. Mas, não é só isso. A plataforma conecta todos os atores: pacientes, médicos, hospitais, clínicas, seguradoras, farmácias, laboratórios etc. em uma rede de dados imutável, transparente, segura e acessível em tempo real.
+
+Por exemplo, a seguradora, ou assistência médica, tem segurança no serviço que o hospital prestou ao segurado (paciente), incluindo consultas, internação, medicamentos e intervenções. O acerto será feito por meio de contrato inteligente.
+
+O paciente tem seu histórico médico acessível, com o registro de vacinas, doenças, tratamentos, alergias, enfim, tudo o que diz respeito à sua saúde. Inclusive, tem controle sobre o que deve ser inserido em seu histórico e quem poderá acessá-lo.
+
+O governo, dentre outras coisas, consegue rastrear medicamentos, evitando desvios e fraudes no sistema de saúde.
+
+Baseada na tecnologia Blockchain, a plataforma tem sua própria criptomeda, a Care.Coin, uma carteira, a Care.Wallet, assim como chaves pública e privada.
+
+Nos EUA, onde o sistema começou a ser usado, o custo com serviços administrativos na área da saúde consome cerca de 30% (trinta por cento) de todo o investimento. Com a plataforma, esse custo pode ser reduzido a cerca de 3% (três por cento) do total investido. Além de aumentar a segurança dos dados, o sistema evita desperdícios, fraudes e erros.
+
+Adaptado de: Solve Care Foundation e Medium

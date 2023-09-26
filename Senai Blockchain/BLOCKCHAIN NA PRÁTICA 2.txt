@@ -1,0 +1,25 @@
+Em 2016, a IBM e a Maersk anunciaram a intenção de construir uma plataforma de logística baseada na tecnologia Blockchain para otimizar o comércio global, reduzir o custo das exportações em aproximadamente 10% (dez por cento) e aumentar o volume de negociação em até 15% (quinze por cento). Com a eliminação de documentos físicos, além de garantir acesso à informação em tempo real, a plataforma digital TradeLens imprime transparência e eficiência aos processos.
+
+Com o objetivo de conectar, em uma rede global, toda a cadeia de suprimentos, além das empresas diretamente envolvidas no processo de compra e venda, atores como portos e terminais, alfândegas e transportadoras, desde a sua criação a plataforma tem hospedado mais de 163 milhões de negociações.
+
+O acesso à informação em tempo real beneficia todos os atores do processo. Acompanhe:
+
+Utilize a barra de rolagem horizontal para visualizar a imagem completa e logo em seguida clique nos bullets para avançar ou retornar.
+
+Exportador:
+Acompanhar seus produtos desde o momento em que saem de seus domínios até a entrega ao destinatário. Reduzir ou eliminar documentos físicos e intermediários. Proporcionar transparência e segurança às suas negociações. Eliminar risco de fraudes.
+
+Transportador terrestre:
+Obter informação sobre localização da carga, o que permite, entre outras coisas, o planejamento, a fim de evitar filas para carregar ou descarregar.
+
+Terminais e portos:
+Planejar e otimizar o uso de recursos humanos, máquinas, equipamentos, espaço físico para armazenamento, bem como estimar receitas e despesas. Além de facilitar a comunicação e a colaboração com as autoridades portuárias.
+
+Transportador aéreo ou marítimo:
+Ter acesso à informação sobre a localização da carga, facilidade de comunicação com terminais e portos acerca de autorizações e/ou restrições.
+
+Alfândegas (autoridades portuárias):
+Planejar a fiscalização, mitigar riscos e ameaças, evitar negócios ilícitos, reduzir documentação impressa. Melhorar a comunicação com terminais e portos.
+
+Importador:
+Acompanhar seu pedido desde o momento em que sai do país de origem. Reduzir ou eliminar documentos físicos e intermediários. Garantir transparência e segurança às suas negociações. Eliminar risco de fraudes.

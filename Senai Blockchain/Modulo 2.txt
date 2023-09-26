@@ -1,0 +1,157 @@
+//Nonce= Tentativas 
+
+-Funcionamento da Blockchain
+
+Transações
+Quando uma transação é solicitada, os mineradores a recebem e competem para resolver a equação
+ 
+Mineradores
+Cada minerador terá um grupo de transações pendentes a serem incluídas. Eles selecionam o bloco e tentam resolver o desafio.
+
+Bloco Candidato
+Para resolver o desafio, os mineradores realizam uma prova de trabalho. O desafio consiste em incrementar o valor de NONCE do bloco, até que a hash do bloco apresente um determinado número de zeros iniciais. Conforme a Blockchain aumenta, o número de zeros aumenta, aumentando, assim, a dificuldade.
+
+Mineração
+O minerador que consegue resolver o desafio transmite a solução (prova de trabalho) para a rede, a fim de que os demais mineradores a validem.
+
+Prova de trabalho concluída Validação e Consenso
+Os demais mineradores verificam a prova de trabalho, validando ou não o bloco.
+
+O processo se reinicia. As transações remanescentes entram em uma nova rodada de competição pelo novo bloco. Isso se faz dessa maneira porque a prova de trabalho foi criada para que o processo de mineração fique em torno de um bloco a cada 10 minutos.
+
+
+Os mineradores vão buscar formar um novo bloco sempre que houver transações pendentes. Logo, a busca por um novo bloco se inicia quando transações são submetidas à rede.
+
+O processo da transação, desde a sua solicitação até sua validação (identificação das partes envolvidas, análise das chaves públicas, dentre outros fatores), dura em torno de 10 minutos.
+
+A transação requer que um bloco seja criado e, para isso, o minerador deverá resolver um enigma através da prova de trabalho (proof of work).
+
+Através da prova de trabalho é que se garante a validade da transação.
+
+Uma vez recebidas, tais transações são inseridas através da estrutura de dados da merkle tree e armazenadas no bloco que será minerado para ser inserido na rede Blockchain. Tal bloco é denominado bloco candidato.
+
+Nas próximas telas, você vai conhecer mais detalhes sobre o processo de mineração de dados, prova de trabalho e validação (consenso).
+
+
+-MINERAÇÃO DE DADOS
+
+O termo minerar é uma referência ao processo de mineração de metais. Assim como encontrar uma metal precioso, como ouro, por exemplo, é uma tarefa trabalhosa, o processo de mineração envolve a resolução de cálculos complexos. Por isso, exige computadores com alto poder de processamento.
+Para adquirirem capacidade suficiente para realizarem a mineração de blocos, as diversas placas de vídeo dessas máquinas (computadores) são otimizadas a fim de executar as mesmas tarefas repetidas vezes.
+
+Além disso, somado ao hardware, é necessário ter um software (programa) específico para realizar a mineração.
+
+Os equipamentos destinados às operações de mineração estão se tornando cada vez mais sofisticados, sendo utilizados desde CPUs convencionais a modernos data centers profissionais.
+
+DICA: Dependendo da exigência da rede para a operação de mineração, uma máquina pode não ser suficiente para resolver o desafio e incluir um bloco. Dessa forma, pequenos mineradores podem se juntar para resolver o desafio coletivamente, e os ganhos são divididos entre todos de acordo com o processamento de cada máquina.
+
+
+A atividade de mineração consome muita energia elétrica. Consequentemente, a rotina para incluir um novo bloco tem um custo elevado.
+
+Ela é custosa pelos seguintes motivos:
+*Alto custo das máquinas (hardware).
+*Necessidade de instalação de sistemas de refrigeração devido o calor gerado pelos processadores e a necessidade de temperatura controlada para otimizar o poder de processamento.
+*Necessidade de um cluster (grupo) de máquinas para aumentar poder de processamento e velocidade para obtenção da solução do bloco.
+*Necessidade de um espaço físico exclusivo para as máquinas devido o calor e o barulho gerado pelas várias ventoinhas das máquinas.
+
+Segurança
+Como os blocos estão em uma cadeia, alterar um bloco requer alterar todos os demais. Como a mineração é custosa e leva tempo, provavelmente novos blocos serão adicionados antes que um nó mal intencionado consiga alterar toda a cadeia, minimizando, assim, a probabilidade de fraudes.
+
+E o que o nó minerador ganha? Eles ganham uma quantia de criptomoedas em recompensa ao trabalho de mineração. Na prática, é criada uma transação (denominada coinbase) que registra a recompensa a ser paga ao minerador quando ele conseguir incluir um bloco na cadeia.
+
+Mas, de forma geral, incluir a transação em uma rede Blockchain tem um preço, denominado custo da transação, que constitui as taxas pagas pelos usuários que estão solicitando transações.
+
+No Bitcoin, a cada 210.000 blocos, a recompensa em bitcoin é reduzida em 50%. Este processo é chamado Halving ou Halvening e ocorre em cerca de 04 anos. Por exemplo, em 2009, a cada novo bloco adicionado, o minerador recebia recompensa de 50 bitcoins. Em 2016, a recompensa já estava em 12,5 bitcoins a cada novo bloco. O limite de moedas na rede é de 21 milhões, de modo que após atingir esse numero, não haverá recompensa e os mineradores serão remunerados pelas taxas cobradas no processamento das transações.
+
+As taxas e as recompensas em bitcoin (por exemplo) pagam o trabalho do minerador. Mas quando o limite da moeda for atingido, a remuneração se dará pela taxa da transação.
+
+
+-PROOF OF WORK (POW)
+
+Proof of work ou prova de trabalho é a rotina computacional que está por trás da mineração. De uma maneira simplificada, a prova de trabalho mais conhecida para um novo minerador consiste em obter, do bloco candidato, uma hash que apresente um certo número de zeros iniciais.
+
+Por exemplo, um novo bloco só pode ser aceito quando sua hash contiver 5 zeros. Este é o requisito mínimo para a hash ser válida. É a dificuldade alvo.
+
+Veja: 00000E6CC2661A6E263A391D88530B72C4491E43A0567BE6C5C5E5E0CF67A10D
+O número de zeros, normalmente, está indicado no campo difficult target (ou dificuldade alvo) de um bloco.
+
+Como um minerador faz para que a hash do bloco candidato vá sendo modificada, de modo a cumprir o desafio? Bom, é aí que entra o campo Nonce.
+
+Imagine, por exemplo, que desejamos minerar um bloco fictício cujo conteúdo se resume na frase: “BlockChain - SENAI-SP”. Suponha que a dificuldade (target value) seja 2, ou seja, a hash deve apresentar 2 zeros iniciais. Ao aplicarmos a Hash SHA256 à frase, obtemos o seguinte resultado:
+
+2b8b6ecf60104d0f58f9c2e6b38fffaff917880ea5fe9aa256139ee13ad2f391
+Observe que essa hash não atende à solicitação (target value 2) porque não se inicia com dois zeros.
+
+Dessa forma, vamos incrementar o Nonce para 1, de modo que a frase será “BlockChain - SENAI-SP1”. Vamos obter:
+
+7e0330e92fab6f01d68db5fd4c6b795af062e5afa638d2548e7305b415b0a3ef.
+Como você pode observar, ainda não temos os 2 zeros iniciais.
+
+Em uma simulação computacional, para obter 2 zeros iniciais para a frase de nosso exemplo, o nonce foi de 1398. Ou seja, o computador executou 1398 tentativas para obter uma hash válida para o desafio.
+
+Se o desafio for de 3 zeros, o computador executa 1546 operações. Para 4 zeros, são 42447 operações. Para 5 zeros, são necessárias 752877 tentativas. Ou seja, apenas 1 hash em mais de 750 mil tentativas conseguiu atender ao requisito de possuir 5 zeros iniciais.
+
+Portanto, quanto maior o valor do desafio, mais tempo o minerador levará para conseguir obter uma hash válida.
+
+IMPORTANTE: As redes Blockchain aumentam o grau de dificuldade com o objetivo de aumentar a proteção. No caso de comercialização de criptomoedas, como a Bitcoin, por exemplo, aumentar o grau de dificuldade também serve para equilibrar a oferta de moedas.
+
+-FUNCIONAMENTO DA POW
+
+Dica: Na verdade, o timestamp não é registrado como “Qua, 8, Ago, 2018” e sim na marcação temporal UNIX, que é um calendário utilizado amplamente por computadores, no qual uma data é representada pela contagem de segundos decorridos desde a meia-noite de 01 de janeiro de 1970, UTC.
+*Por exemplo, “Qua 8 Ago, 2018, 14:40:00” é representada na marcação UNIX como: 1533750000
+Fonte: WebAnalisys,2018.
+
+
+-COMPOSIÇÃO DA HASH
+
+Em síntese, cada hash é composta por: número de bloco, hash anterior, marcação de tempo, dados e nonce, submetidos ao algoritmo de criptografia Hash SHA256, gerando, assim, a hash do bloco.
+
+O grau de dificuldade é definido conforme a blockchain cresce. Por exemplo, na mineração do Bitcoin, a dificuldade é ajustada a cada 2016 blocos. Dessa forma, a dificuldade cresce proporcionalmente ao aumento a cadeia de blocos.
+
+No link http://www.blockchain-basics.com/HashPuzzle.html, você encontra um simulador para compreender o conceito de NONCE.
+
+No campo Data, insira o texto: BlockChain – SENAI-SP
+Em restrições, altere os Leading Zeros para 2 – dificuldade
+Clique em Solve Hash Puzzle
+
+Veja a quantidade de Nonce (tentativas) para criar a hash.
+
+-CONSENSO
+
+a Blockchain é um registo dristribuído de informações, sem um controle central. Por isso, a fim de garantir a veracidade e segurança de cada transação, o minerador que consegue resolver o desafio insere o bloco na sua cadeia local e o transmite para outros mineradores (que até então estavam competindo na resolução de seus desafios) para que eles validem e aceitem essa solução.
+
+O bloco de informações somente será gravado na rede se houver a aprovação de 51% de mineradores. Este é o mecanismo de prova de trabalho mais comum utilizado em redes Blockchain, o chamado consenso.
+
+Após esse bloco entrar na cadeia, o trabalho é reiniciado. Um novo conjunto de transações é montado e, consequentemente, inicia-se a mineração de um novo bloco candidato.
+
+Importante: Há tecnologias de Blockchain que remuneram também alguns dos mineradores que se aproximaram da resolução do desafio para criar um novo bloco, a fim de compensar o esforço do minerador.
+
+
+-CONFLITO
+
+O que impede que dois nós (mineradores) consigam resolver o desafio do bloco candidato no mesmo instante de tempo? A resposta é: nada impede.
+
+Nessa situação, dois blocos válidos são transmitidos à rede e vão atingir nós mais próximos do nó vencedor do desafio.
+
+Imagine a situação em que dois nós A e B resolvem o desafio e divulgam seus blocos na rede.
+Por questões de latência e conectividade da rede, parte dos nós irá receber o bloco do nó A e a outra parte o bloco do nó B.
+
+A Blockchain está estruturada para atuar nessas situações de conflito por uma regra muito simples: a cadeia mais longa vence, ou seja, a rede irá esperar um novo bloco.
+Com o principio chamado “a cadeia mais longa vence”, quando há um conflito na rede (duas cadeias possíveis), a versão a ser considerada válida será aquela que tiver o maior numero de blocos.
+
+-RESOLUÇÃO DE CONFLITO
+
+Em algum momento, a Blockchain apresentou dois possíveis caminhos: - o azul ou o vermelho (observe que ambos os caminhos têm os blocos 50, 51 e 52). Quando o caminho azul ganhou o bloco 53, ele ficou maior que o vermelho, de modo que passou a ser a cadeia mais longa e, então, o consenso foi estabelecido na rede, passando a ser essa a cadeia válida. (Aparentemente, quem tem a melhor internet ganha no conflito)
+
+Em uma eventual alteração de um bloco da cadeia, a prova de trabalho é um elemento que irá dificultar a mudança de todos os nós subsequentes. Mas a regra da cadeia mais longa vence também é um excelente mecanismo de segurança. Uma vez que novos nós estão sendo criados, a cadeia ficará maior e a versão adulterada da cadeia será descartada pelos nós da rede. 
+
+DICA= Este processo de bifurcação também é considerado, na Blockchain, um “fork” (do inglês, garfo). Neste curso, não vamos nos aprofundar neste conceito.
+
+
+
+Neste módulo, você conheceu mais detalhes sobre como novos blocos são validados e adicionados na Blockchain.
+
+Você viu que o trabalho de mineração é essencial para esse processo, pois o minerador que primeiro resolver o desafio (encontrar uma hash válida, composta por número de bloco, hash anterior, marcação de tempo, dados e nonce que transcreve os dados da transação), transmite a prova de seu trabalho (proof of work) para os demais nós mineradores validarem a solução encontrada. Somente após o consenso de 51% da rede, a transação é validada e o bloco incluído na cadeia.
+
+Além disso, você viu que o trabalho de mineração requer alto investimento em energia e equipamentos com alto poder de processamento.
+
+Todos esses elementos (desafio, prova de trabalho, consenso, alto custo computacional) visam inviabilizar a alteração indevida de blocos e garantir mais segurança nas transações.

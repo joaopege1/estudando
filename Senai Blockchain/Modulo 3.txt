@@ -1,0 +1,189 @@
+-APLICAÇÕES DA BLOCKCHAIN 3
+Neste módulo você vai conhecer as aplicações da Blockchain e as profissões que estão surgindo em decorrência dessa tecnologia.
+
+Esperamos que, ao final de seus estudos, você tenha entendido como essa tecnologia pode ser utilizada em diferentes áreas e negócios, bem como quais profissões poderão surgir em decorrência de sua utilização.
+
+
+-INTRODUÇÃO
+
+Você viu que, embora a Blockchain tenha sido criada para possibilitar as negociações financeiras de moedas digitais, sua aplicação vai muito além da comercialização de criptomoedas.
+Dentre as possibilidades de aplicação desta tecnologia, podemos citar:
+
+*Negociação com contratos inteligentes 
+*Identificação de pessoas
+*Registro de propriedade (intelectual, imóveis, automóveis etc.)
+*Rastreabilidade na indústria
+
+-CONTRATOS INTELIGENTES
+Para comprar um carro, por exemplo, precisamos da intermediação de um banco para transferência de valores entre as partes, de um cartório e do Departamento Estadual de Trânsito – DETRAN para reconhecer a transação e emitir o documento de transferência.
+
+Com a Blockchain, esse processo torna-se muito mais fácil, rápido e econômico, uma vez que será realizado diretamente entre as partes interessadas (vendedor e comprador) sem nenhuma intermediação.
+
+Portanto, contrato inteligente (do inglês, smart contract) é qualquer acordo elaborado a fim de ser executado por si só, ou seja, sem a necessidade da intervenção de terceiros, porém com a mesma formalização do negócio entre as partes.
+
+*A diferença é que um contrato inteligente é totalmente digital e escrito em linguagem de programação inalterável, mas estabelece as obrigações e consequências da mesma forma que o documento físico usual. Podemos dizer que é um código de programação que define as regras, obrigações, benefícios, penalidades e consequências tal como qualquer documento legal tradicional.
+
+Saiba mais:
+Conheça a plataforma My Wish (https://mywish.io/), que foi criada com o objetivo de facilitar o acesso aos contratos inteligentes e resolver problemas na economia digital.
+
+Essa plataforma também desmitifica a ideia de que o uso de contratos inteligentes é complexo e acessível somente àqueles que detêm certo conhecimento em tecnologia da informação.
+
+Fonte: BTCSoul.com
+
+-VANTAGENS DOS CONTRATOS INTELIGENTES
+
+O contrato inteligente é firmado entre as partes interessadas, por exemplo, vendedor e comprador. A partir desse acordo, o contrato recebe e distribui ativos de forma automatizada. Isto é, o contrato verifica se uma situação programada foi atingida na rede e, quando verdadeiro, realiza uma série de ações.
+
+Esses contratos podem ser usados em diversas áreas, com bens e serviços.
+
+*Autonomia: Não existe a necessidade de intervenção de terceiros, pois é o próprio interessado quem faz o acordo, eliminando possíveis manipulações e erros, já que a execução é gerenciada automaticamente pela rede.
+
+*Economia: Elimina-se custos com terceiros.
+
+*Velocidade: Os contratos inteligentes utilizam softwares para automatizar as tarefas, reduzindo o tempo necessário para diversos processos negociais.
+
+*Confiabilidade: O contrato inteligente é criptografado e distribuído entre os nós da rede, garantindo que não seja perdido ou alterado, conferindo transparência e legitimidade ao processo.
+*Precisão: Evitam-se erros provenientes do preenchimento manual de vários formulários.
+
+*Transparência: A eliminação da linguagem jurídica, passível de diferentes interpretações, garante mais transparência nas informações.
+
+-DESVANTAGENS DOS CONTRATOS INTELIGENTES
+
+Os contratos inteligentes também apresentam algumas desvantagens:
+
+*Fator Humano
+O código é escrito por pessoas, portanto é passível de erros. Também podem ocorrer bugs no código.
+
+*Regulamentação
+Os contratos inteligentes ainda não estão regulamentados no Brasil. Existem dúvidas de como os governos poderão regulamentar e taxar esse tipo de transação.
+
+*Custo de Implementação
+Como os contratos são baseados em programação, é necessário ter um profissional experiente na equipe, capaz de executar contratos inteligentes à prova de falhas, além de uma estrutura para trabalhar com Blockchain.
+
+Observe no quadro abaixo um resumo das principais diferenças entre os contratos tradicionais e os contratos inteligentes:
+
+Contratos Tradicionais	                VS	       Contratos Inteligentes
+Entre 1 e 3 dias	Tempo confecção do contrato		Em minutos
+Manual	                Remessa	                  	        Automática
+Necessária	        Garantia	                     Não é necessária
+Alto	                Custo	                 	        Fracionado
+Presencial	        Assinatura	          	         Virtual
+Necessário	        Intermediação Jurídica	   	         Reduzida
+
+-DOCUMENTOS DE PESSOAS FÍSICAS
+
+Outra possibilidade de aplicação da tecnologia Blockchain está relacionada à identificação e ao registro das pessoas.
+
+Atualmente os dados de identificação de uma pessoa são fragmentados, ou seja, estão organizados em diferentes meios, centralizados em instituições públicas ou privadas.
+
+São exemplos, o CPF, o título de eleitor, o RG, a carteira de motorista, a certidão de nascimento, além de outras informações sobre escolaridade (informações centralizadas nas instituições de ensino) e sobre registro de doenças (centralizado em consultórios médicos, postos de saúde e hospitais.). As informações existem, porém não há sistema único que as gerencie.
+
+quem foi o primeiro registro de nascimento em blockchain (brasileiro)
+https://www.criptofacil.com/brasileiro-realiza-primeiro-registro-de-nascimento-na-blockchain-da-decred/ 
+
+primeiro registro de casamento em blockchain (brasileiro)
+https://blog.originalmy.com/clipping-1a-casamento-brasileiro-registrado-em-blockchain-na-campus-party-2017/
+
+-REGISTRO DE IMÓVEIS
+
+A Blockchain também pode ser usada para realizar registro, compra e venda de propriedades.
+Com essa tecnologia, a divisão de propriedades, construção em lote desmembrado e a compra e venda de imóveis podem ser realizadas sem erros, evitando, por exemplo, que o mesmo terreno seja vendido mais de uma vez para proprietários diferentes ou que a demarcação incorreta seja realizada na hora da venda.
+
+O uso da Blockchain pode eliminar os problemas de registro e atualização de informações nos órgãos públicos.
+
+O processo de registro de propriedade na Blockchain é similar ao de identidade de pessoas.
+
+-RASTREABILIDADE NA INDÚSTRIA
+
+Na indústria, o processo de produção envolve o registro ou documentos de vários setores. Por exemplo, o setor de engenharia elabora o projeto de um produto, mas a sua produção só será iniciada após a venda. Quando um pedido de venda é encaminhado ao setor de planejamento e controle de produção, ele é analisado a fim de que os recursos sejam alocados (matéria-prima, equipamentos, recursos humanos). Essa análise envolve outros setores, como estoque, logística e compras. Após a fabricação, o produto é encaminhado para aprovação pelo controle de qualidade e, então, será encaminhado ao cliente. Caso ocorra algum problema ou reclamação que implique a mudança no design do produto, será necessário, primeiramente, a aprovação pelo setor de engenharia para que a alteração seja aplicada no processo de produção.
+
+-BLOCKCHAIN NA INDÚSTRIA
+
+Com a blockchain, os processos de produção e de vendas são interligados e todas as informações são constantemente validadas por cada setor, possibilitando a precisão da informação.
+Além disso, a rede permite rastrear e controlar o percurso dos produtos até consumidor, ou até a assistência técnica, o que torna o processo muito mais ágil. A transmissão dessas informações para a Blockchain ocorre por meio da IoT (internet das coisas).
+
+Para compreender melhor, veja este exemplo:
+
+A engenharia desenvolve o projeto de design de uma bicicleta. A partir dele, faz-se o planejamento dos materiais e processos necessários para iniciar a produção. Após a fabricação e aprovação pelo controle de qualidade, a bicicleta é disponibilizada para venda.
+
+Caso ocorra alguma mudança no decorrer do projeto, como, por exemplo, a alteração de algum material ou peça, ou ainda, a criação de um novo modelo de produto, cria-se rapidamente um novo registro de informações pela Blockchain que será transmitido a todos os setores.
+
+Em relação ao consumidor final, caso a bicicleta apresente algum defeito, assim que o consumidor acionar a assistência técnica, um novo bloco de informações será gerado e transmitido diretamente ao setor de engenharia, que estudará o defeito e fará as alterações necessárias no produto, bem como no processo de produção.
+
+-APLICAÇÕES DA BLOCKCHAIN
+Jurídica
+Na Consensus 2018 (Summit anual da tecnologia Blockchain), a Deloitte demonstrou a aplicação da Blockchain na área jurídica. Por meio de um software de automação de contratos, carregado em Blockchain, proprietário e inquilino de um imóvel firmaram um contrato de aluguel. O nome do inquilino, endereço atual e datas de entrada e saída foram preenchidas automaticamente pela ferramenta de contratos do software e, a partir daí, tanto o proprietário como o locatário puderam assinar digitalmente o documento. Caso alguma das partes quisesse acessar o documento novamente, poderia fazê-lo por meio de uma senha pessoal única para aquele contrato. Fonte: Thomson Reuters
+
+Logística
+Grandes empresas varejistas, em parceria com a IBM, estão utilizando a Blockchain para rastrear alimentos, do produtor ao consumidor, considerando origem, segurança e autenticidade do alimento. Com o uso da Blockchain, a rede Walmart, por exemplo, conseguiu reduzir o tempo de rastreamento de produtos de seis dias para dois segundos, o que reduz também o tempo de investigação de doenças causadas por alimentos de baixa qualidade. Fonte: BTCSoul.com
+
+Governos
+O governo da Estônia oferece uma gama de serviços por meios eletrônicos, e o mais famoso deles é o Estonian e-Residency: um sistema de residência eletrônica acessível por qualquer pessoa do mundo. Baseado na Blockchain, o sistema permite a criação de uma identidade digital única. Não-residentes do país podem requerer um smart card emitido pelo Estado que lhes dá acesso a diversos serviços públicos Estonianos. Fonte: Instituto de Referência em Internet e Sociedade
+
+Energia
+A Grid Plus, startup da ConsenSys, está desenvolvendo uma aplicação com a infraestrutura da Blockchain, para otimizar o uso e reduzir o custo da eletricidade. Por meio de um dispositivo conectado à internet, o usuário poderá gerenciar o consumo de energia em sua residência, comprar e vender eletricidade. Todo o faturamento poderá ser acompanhado em tempo real. tempo real. Fonte: Geração Smart Grid
+
+Saúde
+Os históricos de saúde das pessoas estão descentralizados, arquivados tanto nas instituições de serviços de saúde públicas como nas instituições privadas. A Blockchain permite que os registros sejam centralizados, de maneira segura e acessível. Isto representa redução de tempo no diagnóstico de doenças, no tratamento do paciente e no custo dos processos. Os dados do paciente, combinados aos históricos de tratamentos de doenças podem, inclusive, reduzir erros médicos. Fonte: Medium
+
+Educação
+O Massachusetts Institute of Technology - MIT recentemente concedeu certificados ou diplomas digitais a mais de 100 graduados por meio de um projeto piloto envolvendo a Blockchain. Com o aplicativo Blockcerts Wallet, os alunos podem obter, em tempo real, uma versão digital de seu diploma e compartilhá-lo com empregadores, outras instituições de ensino etc., evidenciando a integridade e autenticidade das informações em seus currículos. Fonte: MIT
+
+Turismo
+O grupo alemão TUI, a maior empresa de turismo do mundo, com 20 milhões de clientes, está desenvolvendo um projeto denominado BedSwap, que usa a tecnologia Blockchain como parte de um sistema para manter registros em tempo real em hotéis, resorts e cruzeiros. Fonte: Guia do Bitcoin
+
+Segurança Nacional
+O Departamento de Segurança Nacional dos EUA anunciou o uso da Blockchain para garantir a segurança dos dados coletados por câmeras de segurança, equipamentos e sensores instalados em aeroportos, portos e nos centros de imigração nas fronteiras com o Canadá e o México. O uso da tecnologia também pretende imprimir mais transparência aos processos de imigração e de visto. Fonte: CoinTelegraph
+
+Para saber mais sobre essas e outras possibilidades, leia a reportagem da Forbes Brasil sobre 35 exemplos práticos de aplicação da tecnologia Blockchain no site:
+https://forbes.com.br/fotos/2018/01/5-exemplos-praticos-de-como-o-blockchain-sera-usado-em-2018/
+
+Para conhecer uma iniciativa brasileira, leia a matéria da InfoMoney em:
+https://www.infomoney.com.br/mercados/bitcoin/noticia/7282975/bndes-tera-moeda-virtual-propria-com-Blockchain-diz-jornal
+
+-PROFISSIONAIS NA BLOCKCHAIN
+
+O estudo realizado pelo Serviço Nacional de Aprendizagem Industrial – SENAI, publicado em Julho/2018, prevê o surgimento de 30 novas profissões na área da Tecnologia da Informação – TI. O mercado necessitará de profissionais que integrem o mundo físico ao virtual por meio de tecnologias digitais como Internet das Coisas (IoT), Big data e Inteligência Artificial. 
+
+IoT - Internet das Coisas
+No Japão, existem fechaduras que dispensam o uso de chaves, pois são trancadas e destrancadas por meio do smartphone. O profissional que realiza este tipo de programação chama-se “Desenvolvedor IoT”.
+
+Big Data
+Na internet são gerados conteúdo e informação a todo momento (publicações em redes sociais, compras, sites etc.). São dados que podem ser armazenados em Big Data, analisados e aplicados para melhoria de produtos e serviços. Tem sido utilizado muito no ramo de publicidade. O ‘Engenheiro de Dados” é uma profissão promissora nessa área.
+
+IA - Inteligência Artificial
+A Inteligência Artificial é uma área da ciência da computação que visa ao desenvolvimento de dispositivos que simulem a capacidade de raciocínio humana. Um exemplo são os chatbots (robôs que interagem com pessoas) de vários sites que respondem perguntas pré-definidas. Um dos profissionais que podem atuar nessa área é o “Engenheiro de Inteligência Artificial”.
+
+Além dessas profissões, há papéis destinados especificamente à Blockchain:
+
+Administrador da Rede (Network Admin)
+São indivíduos ou organizações responsáveis pela configuração e pelo gerenciamento da rede. O administrador deve garantir que a rede Blockchain suporte a necessidade de desempenho necessária aos processos a serem executados.
+
+Membros da rede (Network Participants)
+São indivíduos ou organizações que realizam transações e compartilham dados com outros membros da rede. Por meio de dispositivos computacionais, validam novas transações com base nas regras estabelecidas nos contratos inteligentes.
+
+Provedores da Nuvem (Cloud Providers)
+A utilização da tecnologia de computação em nuvem para implantações de Blockchain possibilita a oferta de serviços computacionais que irão suportar as operações executadas na cadeia de blocos.
+
+1. Selecione as duas alternativas que descrevem características e vantagens dos contratos inteligentes:
+
+ B) É elaborado sem intervenção de terceiros, porém com a mesma formalização do negócio entre as partes.
+ C) Estabelece as mesmas obrigações e consequências que o documento físico tradicional.
+
+Conforme você viu, o desenvolvimento da indústria 4.0 e da tecnologia Blockchain está mudando o mercado de trabalho. Este novo cenário que integra o mundo físico ao virtual por meio de tecnologias digitais prevê o surgimento de novas profissões sobretudo na área da Tecnologia da Informação – TI.
+
+3. Relacione cada profissional de acordo com a descrição de sua atuação:
+
+Profissional que desenvolve dispositivos que simulem a capacidade de raciocínio humana. Resposta: Engenheiro de Inteligência Artificial
+Análise de grande quantidade de dados produzidos por equipamentos para orientar o processo produtivo e tomar decisões estratégicas. Resposta: Especialista em Big Data
+Responsável por realizar testes e utilizar ferramentas tecnológicas para manter a computadores, programas, redes e dados da empresa seguros contra ameaças internas e externas. Resposta: Engenheiro de Cibersegurança
+Responsável por desenvolver soluções de sistemas, integrando hardware e software por meio da internet. Resposta: Analista de Internet das coisas
+
+
+Módulo 3
+
+Neste módulo, você conheceu como a tecnologia Blockchain pode ser aplicada na formalização de contratos inteligentes para qualquer tipo de transação, na criação de um sistema unificado para identificação de pessoas, nos registros e atualizações de informações sobre qualquer negociação envolvendo imóveis, bem como nos processos da indústria.
+
+Você viu que a rede distribuída de dados, por não haver a intervenção de terceiros (instituições privada e/ou públicas), traz autonomia, facilidade, rapidez, economia e transparência às transações. Por isso, tem atraído o interesse de várias áreas e segmentos, como jurídica, logística, governamental, energia, alimentícia, varejista, saúde, segurança e educação.
+
+Além disso, em decorrência do crescimento e implantação da tecnologia Blockchain em diversos setores e do desenvolvimento da indústria 4.0, novas possibilidades profissionais têm surgido na área da Tecnologia da Informação.
